@@ -1,0 +1,3 @@
+/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles/opengl_window.dir
+/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles/edit_cache.dir
+/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles/rebuild_cache.dir

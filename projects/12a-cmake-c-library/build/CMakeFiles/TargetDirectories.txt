@@ -1,0 +1,4 @@
+/Users/ryanbourdais/repos/C-Learning/projects/12a-cmake-c-library/build/CMakeFiles/stats.dir
+/Users/ryanbourdais/repos/C-Learning/projects/12a-cmake-c-library/build/CMakeFiles/stats_tool.dir
+/Users/ryanbourdais/repos/C-Learning/projects/12a-cmake-c-library/build/CMakeFiles/edit_cache.dir
+/Users/ryanbourdais/repos/C-Learning/projects/12a-cmake-c-library/build/CMakeFiles/rebuild_cache.dir
