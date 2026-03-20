@@ -129,6 +129,30 @@ opengl_window/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/build
 .PHONY : opengl_window/fast
 
+external/glad/src/glad.o: external/glad/src/glad.c.o
+.PHONY : external/glad/src/glad.o
+
+# target to build an object file
+external/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o
+.PHONY : external/glad/src/glad.c.o
+
+external/glad/src/glad.i: external/glad/src/glad.c.i
+.PHONY : external/glad/src/glad.i
+
+# target to preprocess a source file
+external/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/external/glad/src/glad.c.i
+.PHONY : external/glad/src/glad.c.i
+
+external/glad/src/glad.s: external/glad/src/glad.c.s
+.PHONY : external/glad/src/glad.s
+
+# target to generate assembly for a file
+external/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/external/glad/src/glad.c.s
+.PHONY : external/glad/src/glad.c.s
+
 opengl-window.o: opengl-window.c.o
 .PHONY : opengl-window.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opengl_window"
+	@echo "... external/glad/src/glad.o"
+	@echo "... external/glad/src/glad.i"
+	@echo "... external/glad/src/glad.s"
 	@echo "... opengl-window.o"
 	@echo "... opengl-window.i"
 	@echo "... opengl-window.s"

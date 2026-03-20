@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o"
+  "CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o.d"
   "CMakeFiles/opengl_window.dir/opengl-window.c.o"
   "CMakeFiles/opengl_window.dir/opengl-window.c.o.d"
   "opengl_window"

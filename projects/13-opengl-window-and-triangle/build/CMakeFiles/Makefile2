@@ -85,12 +85,12 @@ clean: CMakeFiles/opengl_window.dir/clean
 CMakeFiles/opengl_window.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles --progress-num=1,2 "Built target opengl_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles --progress-num=1,2,3 "Built target opengl_window"
 .PHONY : CMakeFiles/opengl_window.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opengl_window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/opengl_window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles 0
 .PHONY : CMakeFiles/opengl_window.dir/rule
@@ -102,7 +102,7 @@ opengl_window: CMakeFiles/opengl_window.dir/rule
 # codegen rule for target.
 CMakeFiles/opengl_window.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_window.dir/build.make CMakeFiles/opengl_window.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles --progress-num=1,2 "Finished codegen for target opengl_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target opengl_window"
 .PHONY : CMakeFiles/opengl_window.dir/codegen
 
 # clean rule for target.

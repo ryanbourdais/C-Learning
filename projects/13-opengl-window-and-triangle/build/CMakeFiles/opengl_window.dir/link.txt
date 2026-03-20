@@ -1,1 +1,1 @@
-/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/opengl_window.dir/opengl-window.c.o" -o opengl_window  -Wl,-rpath,/usr/local/lib /usr/local/lib/libglfw.3.4.dylib -framework OpenGL
+/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/opengl_window.dir/opengl-window.c.o" CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o -o opengl_window  -Wl,-rpath,/usr/local/lib /usr/local/lib/libglfw.3.4.dylib -framework OpenGL

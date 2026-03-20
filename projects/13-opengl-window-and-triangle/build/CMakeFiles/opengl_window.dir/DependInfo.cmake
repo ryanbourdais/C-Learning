@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/external/glad/src/glad.c" "CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/opengl_window.dir/external/glad/src/glad.c.o.d"
   "/Users/ryanbourdais/repos/C-Learning/projects/13-opengl-window-and-triangle/opengl-window.c" "CMakeFiles/opengl_window.dir/opengl-window.c.o" "gcc" "CMakeFiles/opengl_window.dir/opengl-window.c.o.d"
   )
 

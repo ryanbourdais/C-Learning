@@ -10,6 +10,11 @@ find_package(glfw3 CONFIG REQUIRED)
 
 add_executable(opengl_window
     opengl-window.c
+    external/glad/src/glad.c
+)
+
+target_include_directories(opengl_window PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/external/glad/include
 )
 
 target_link_libraries(opengl_window PRIVATE
